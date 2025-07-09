@@ -33,7 +33,7 @@ services:
       - key: DB_POSTGRESDB_SCHEMA
         value: public
       - key: WEBHOOK_URL
-        value: https://selectedn8n.onrender.com/
+        value: https://n8n-oa0a.onrender.com
       - key: N8N_ENCRYPTION_KEY
         value: bU5X8MxUwzJH7VNgnpPi9AxV45VhM3Bu3qgfrkKOovU=
       - key: GENERIC_TIMEZONE
