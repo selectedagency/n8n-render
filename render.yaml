@@ -9,7 +9,7 @@ services:
     healthCheckPath: /
     envVars:
       - key: DB_TYPE
-        value: postgresdb
+        value: postgres
       - key: DB_POSTGRESDB_HOST
         fromDatabase:
           name: n8n-db
